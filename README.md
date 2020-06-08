@@ -13,6 +13,8 @@ modified simulator: `git clone https://github.com/ORCA-WP1/uuv_simulator`
 
 current controller: `git clone https://github.com/ORCA-WP1/current_controller`
 
+tidal disturbances [AUTH NEEDED]: `git clone https://github.com/ORCA-WP1/environment_controller`
+
 mounting for iiwa14 on rexrov2: `git clone https://github.com/ORCA-WP1/rexrov2_iiwa14`
 
 Rexrov2 robot: `git clone https://github.com/ORCA-WP1/rexrov2`
