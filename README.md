@@ -24,6 +24,8 @@ iiwa manipulator: `git clone https://github.com/ORCA-WP1/iiwa_stack`
 
 ## dependencies
 
+ensure your apt packages are up to date: `sudo apt-get update` then `sudo apt-get upgrade`
+
 install any missing dependencies with: `rosdep install --from-paths src --ignore-src -r -y`
 
 ## build
