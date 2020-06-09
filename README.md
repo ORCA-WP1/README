@@ -30,3 +30,27 @@ install any missing dependencies with: `rosdep install --from-paths src --ignore
 
 ## build
 navigate to your workspace folder one level up then: `catkin_make` to build all the packages
+
+# Usage:
+
+ORCAWP1 Experiment: Simulation Scenario
+
+to run default simulation: 
+
+`roslaunch orcawp1_integration integration_scenario.launch`
+
+to run with rexrov2 and iiwa14 manipulator:
+
+`roslaunch orcawp1_integration integration_scenario_rexrov2_iiwa14.launch`
+
+[WIP] to run with blurov2 and hdt manipulator:
+
+`roslaunch orcawp1_integration integration_scenario_bluerov2_hdt.launch`
+
+## launch arguments
+ 
+disturbances from file: `disturbances:=true`
+
+random disturbances: `random_disturbances:=true`
+
+tidal_currents: `tidal_current:=true`
