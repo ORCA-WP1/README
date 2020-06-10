@@ -3,6 +3,8 @@ This github organisation holds core packages for our work
 
 # Installation of the full demo environment
 
+note: this project is designed around **ROS-Kinetic** and **Gazebo-7.16**, other configurations may also work but YMMV.
+
 ## downloads
 
 clone the following packages into your ROS workspace src/ folder:
